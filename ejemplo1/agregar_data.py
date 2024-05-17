@@ -13,6 +13,9 @@ miSaludo = Saludo()
 miSaludo.mensaje = "Hola que tal"
 miSaludo.tipo = "informal"
 
+#Utilizando El ORM de sqlAlchemy se puede ahorra el codigo de sql tradicional, utilizando el insert, gracias a SQLaLCHEMY
+#se puede agilizar esto y tambien utilizando un csv tambien al igual que en otras este ORM ayuda un monton.
+
 miSaludo2 = Saludo()
 miSaludo2.mensaje = "Buenas tardes"
 miSaludo2.tipo = "formal"
